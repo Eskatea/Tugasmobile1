@@ -38,16 +38,21 @@ dependencies:
   cupertino_icons: ^1.0.6
 
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
   flutter_svg: ^2.0.0
+  flutter_lints: ^3.0.0
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.0
+
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -62,7 +67,10 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/images/logo_responsi_tugas.svg
+     - assets/images/logo_tugas_responsi2.png
+     - assets/images/logo_3.png
+     - assets/images/icon_bintang.png
+     - assets/images/profil_4.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -93,11 +101,10 @@ flutter:
       - family: Poppins
         fonts:
           - asset: assets/fonts/Poppins-Regular.ttf
-          - asset: assets/fonts/Poppins-VariableFont.ttf
           - asset: assets/fonts/Poppins-SemiBold.ttf
           - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
-          - asset: assets/fonts/Poppins_-Bold.ttf
-          - asset: assets/fonts/Poppins_-ExtraBold.ttf
+          - asset: assets/fonts/Poppins-Bold.ttf
+          - asset: assets/fonts/Poppins-ExtraBold.ttf
             weight: 400
             style: normal
 
